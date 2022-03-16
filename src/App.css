@@ -4,6 +4,7 @@ body {
   display: grid;
   place-items: center;
   margin: 0;
+  overflow: hidden;
 }
 
 .container {
@@ -16,7 +17,7 @@ body {
   position: relative;
   background: #fff2f9;
   border: 3px solid #a52929;
-  width: 200px;
+  width: 220px;
   height: 200px;
   border-bottom-right-radius: 40%;
   border-bottom-left-radius: 40%;
