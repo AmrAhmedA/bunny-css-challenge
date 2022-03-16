@@ -123,3 +123,25 @@ body {
   background-color: #fff2f9;
   border: 3px solid #fff2f9;
 }
+
+.rabbit-body {
+  width: 250px;
+  height: 400px;
+  position: absolute;
+  top: 90%;
+  border-top-left-radius: 50%;
+  border-top-right-radius: 50%;
+  border: 3px solid #a52929;
+  background-color: #fff2f9;
+}
+.rabbit-body::after {
+  content: "";
+  width: 95px;
+  height: 82px;
+  position: absolute;
+  top: -6%;
+  left: 31%;
+  border-top-left-radius: 50%;
+  border-top-right-radius: 50%;
+  background-color: #fff2f9;
+}
