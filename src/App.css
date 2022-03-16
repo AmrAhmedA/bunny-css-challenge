@@ -67,3 +67,23 @@ body {
   left: 15%;
   transform: rotate(-14deg);
 }
+
+.rabbit-eye::after,
+.rabbit-eye::before {
+  content: "";
+  width: 20px;
+  height: 20px;
+  background: #a52929;
+  display: block;
+  border-radius: 50%;
+  position: absolute;
+  top: 40%;
+}
+
+.rabbit-eye::after {
+  left: 25%;
+}
+
+.rabbit-eye::before {
+  left: 60%;
+}
