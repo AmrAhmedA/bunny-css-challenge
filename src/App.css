@@ -24,3 +24,46 @@ body {
   border-top-left-radius: 50%;
   border-top-right-radius: 50%;
 }
+
+.rabbit-ear::after,
+.rabbit-ear::before {
+  content: "";
+  width: 40px;
+  height: 150px;
+  background: #fff2f9;
+  display: block;
+  border: 3px solid #a52929;
+  border-radius: 50%;
+  position: absolute;
+  top: -60%;
+}
+.rabbit-ear::before {
+  left: 75%;
+  transform: rotate(14deg);
+}
+.rabbit-ear::after {
+  left: 0;
+  transform: rotate(-14deg);
+}
+.rabbit-ear-bottom-patch::after,
+.rabbit-ear-bottom-patch::before {
+  content: "";
+  width: 40px;
+  height: 50px;
+  background: #fff2f9;
+  display: block;
+  border-radius: 50%;
+  position: absolute;
+  top: 5%;
+}
+.rabbit-ear-bottom-patch::before {
+  top: 5%;
+  left: 65%;
+  transform: rotate(14deg);
+}
+.rabbit-ear-bottom-patch::after {
+  top: 7%;
+
+  left: 15%;
+  transform: rotate(-14deg);
+}
