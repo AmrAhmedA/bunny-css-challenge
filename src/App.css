@@ -87,3 +87,39 @@ body {
 .rabbit-eye::before {
   left: 60%;
 }
+
+.rabbit-nose {
+  width: 20px;
+  height: 11px;
+  position: absolute;
+  top: 55%;
+  left: 42%;
+  background-color: #eeb3d3;
+  border: 3px solid #a52929;
+  border-top-left-radius: 70%;
+  border-top-right-radius: 70%;
+  border-bottom-right-radius: 40%;
+  border-bottom-left-radius: 40%;
+}
+
+.rabbit-mouse {
+  width: 25px;
+  height: 10px;
+  position: absolute;
+  top: 70%;
+  left: 42%;
+  background-color: transparent;
+  border: 3px solid #a52929;
+  border-radius: 100%;
+}
+
+.rabbit-mouse::after {
+  content: "";
+  width: 30px;
+  height: 10px;
+  position: absolute;
+  top: -110%;
+  left: -14%;
+  background-color: #fff2f9;
+  border: 3px solid #fff2f9;
+}
